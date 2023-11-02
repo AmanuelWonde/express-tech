@@ -6,10 +6,16 @@
 
   @layer base {
     .navLink{
-      @apply hover:text-blue-500 cursor-pointer transition-all ease-in-out duration-200 
+      @apply hover:text-blue-500 cursor-pointer transition-all ease-in-out duration-200 active:text-blue-600 
     }
   }
 
   body {
     font-family: 'Nunito', sans-serif;
+  }
+
+  .bg-img {
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1172&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
