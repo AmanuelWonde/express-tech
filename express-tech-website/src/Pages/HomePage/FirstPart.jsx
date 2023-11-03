@@ -27,8 +27,8 @@ export function FirstComponent() {
             We specialize in IT Consultation, cutting-edge Software Development, and seamless integration of Websites, Apps, Systems, and APIs.
           </motion.p>
           <div className='flex flex-col sm:flex-row mx-auto lg:mx-0'>
-          <SolidBlueButton className="mb-4 sm:mb-0 px-4 py-4 lg:py-6 rounded" lable="Apply For Internship"/>
-          <OutlineButton lable="Learn More" className="sm:ml-8 px-6 py-3 lg:py-5  hover:bg-blue-500 rounded hover:border-blue-500 "/>
+          <SolidBlueButton className=" mb-4 sm:mb-0 px-4 py-4 lg:py-6 rounded" lable="Apply For Internship"/>
+          <OutlineButton lable="Learn More" className="sm:ml-8 px-6 py-3 lg:py-5  hover:bg-blue-500 rounded hover:border-blue-500 active:bg-blue-700"/>
           </div>
         </div>
         <motion.div 

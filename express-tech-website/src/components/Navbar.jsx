@@ -12,7 +12,7 @@ export function Navbar(){
   }
 
   return(
-    <nav className="bg-black h-[93px] px-3 text-white flex flex-row-reverse md:flex-row justify-between items-center">
+    <nav className="bg-black h-[93px] px-3 text-white flex flex-row-reverse md:flex-row justify-between items-center 2xl:w-[1280px] mx-auto">
       <div className="text-3xl  cursor-pointer lg:hidden pt-2 z-10 ">
         <ion-icon name={name} onClick={onToggleMenu}></ion-icon>
       </div>

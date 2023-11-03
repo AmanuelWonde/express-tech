@@ -2,6 +2,9 @@ import React from "react";
 import { Navbar } from "../../components/Navbar";
 import { FirstComponent } from "./FirstPart";
 import SecondComponent from "./SecondPart";
+import ThirdComponent from "./ThirdPart";
+import FourthComponent from "./FourthPart";
+import Testimonial from "./FifthPart";
 
 
 function HomePage(){
@@ -10,6 +13,9 @@ function HomePage(){
       <Navbar />
       <FirstComponent /> 
       <SecondComponent />
+      <ThirdComponent />
+      <FourthComponent />
+      <Testimonial />
     </div>
   )
 }
