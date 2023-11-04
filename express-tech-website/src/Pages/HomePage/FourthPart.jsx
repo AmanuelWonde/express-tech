@@ -11,7 +11,7 @@ function FourthComponent(){
       <OurServices />
       <div className="grid grid-row-4 lg:grid-flow-col md:flex-row justify-center gap-6 md:mx-3">
         <Card
-          initial={{opacity: 0, x: -200}}
+          initial={{opacity: 0, x: -100}}
           style="row-span-4 bg-blue-600 text-white rounded-xl "
           title="Mobile App Development"
           text="Innovative Mobile App Solutions - Powering Seamless Experiences."
@@ -19,7 +19,7 @@ function FourthComponent(){
           />
         <Card
           style="bg-[#203a59] text-white rounded-xl "
-          initial={{opacity: 0, x: 200}}
+          initial={{opacity: 0, x: 100}}
           title="Website Development"
           text="Creating stunning websites for online success."
           img="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" 
