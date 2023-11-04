@@ -8,7 +8,7 @@ function Card(props){
 
   useEffect(() => {
     if(isInView2){
-      animate(scope.current, {opacity: 1, x: 0 },{ type: "spring", bounce:0.5, duration: 1.5, delay: 0.5 } )
+      animate(scope.current, {opacity: 1, x: 0, y: 0 },{ type: "spring", bounce:0.5, duration: 1.5, delay: 0.5 } )
     }
   }, [isInView2])
 

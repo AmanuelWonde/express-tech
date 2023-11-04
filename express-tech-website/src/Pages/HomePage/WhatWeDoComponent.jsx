@@ -9,15 +9,16 @@ function WhatWeDoComponent(){
 
   useEffect(() => {
     if(isInView1){
-      animate(scope.current, { scale: 1, y: 0 }, { duration: 0.6, delay: 0.25} )
+      animate(scope.current, { scale: 1, y: 0 }, { duration: 0.6, delay: 0.3} )
     }
   }, [isInView1])
 
   return(
     <div className="pt-72 md:pt-28 lg:pt-72  xl:pt-64">
-    <motion.div        
+    <motion.div  
+      ref={scope}      
       initial={{scale: 0, y: 50}}
-      ref={scope}  
+       
       className="pb-14">
       <h1 className="text-center text-lg text-blue-400">What We Do</h1>
       <h1 className="text-center text-3xl text-white mt-5">Revolutionize your perception of technology!</h1>

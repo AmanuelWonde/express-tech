@@ -32,7 +32,7 @@ export function FirstComponent() {
           </div>
         </div>
         <motion.div 
-          animate={{opacity:1}} initial={{opacity: 0}} transition={{duration: 0.8, delay: 0.25}} 
+          animate={{opacity:1}} initial={{opacity: 0}} transition={{duration: 1.5, delay: 0.25}} 
           className='lg:w-1/2 mx-auto p-8'>
           <Lottie className='md:w-[650px] lg:w-full' animationData={animationData}/>
         </motion.div>        

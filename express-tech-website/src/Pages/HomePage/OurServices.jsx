@@ -12,7 +12,7 @@ function OurServices(){
 
   useEffect(() => {
     if(isInView){
-      animate(scope.current, { opacity: 1, x: 0 }, { duration: 0.8, delay: 0.5})
+      animate(scope.current, { opacity: 1, x: 0 }, { duration: 0.75, delay: 0.5})
     }    
   }, [isInView])
 
