@@ -32,3 +32,9 @@
   header nav a.active {
     color: rgb(0, 136, 255);
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
