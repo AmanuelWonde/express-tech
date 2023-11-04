@@ -2,7 +2,7 @@ import React from "react";
 import { CustomIcons } from "./CustomIcons";
 function Footer(){
   return(
-    <div className="bg-[#203a59]">
+    <div className="bg-[#203a59] pt-10">
       <div className="xl:w-[1300px] mx-auto pb-4">
         <div className="text-white grid grid-cols-3 lg:grid-cols-4 text-sm pb-8 px-4">
           <div className="col-span-3 pb-6 lg:col-span-1 lg:pb-0">

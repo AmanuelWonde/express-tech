@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { SolidBlueButton } from "./SolidBlueButton";
+import { NavLink } from "react-router-dom";
 
 export function Navbar(){
 
@@ -21,13 +22,13 @@ export function Navbar(){
       </div>
       <div className="">
         <ul className={`lg:static absolute left-0 bg-black min-h-[33vh] lg:min-h-fit min-w-full lg:flex justify-center px-3 space-y-4 lg:space-y-0 lg:px-0 ${show ? "top-[10%]": "top-[-100%]"} transition-all duration-300 ease-in-out items-center lg:z-0 gap-6`}>
-          <li className="navLink">Home</li>
-          <li className="navLink">About Us</li>
-          <li className="navLink">Team</li>
-          <li className="navLink">Portfolio</li>
-          <li className="navLink">Services</li>
-          <li className="navLink">Project Bid</li>
-          <li className="navLink">Blog</li>
+          <NavLink to="/" className="navLink">Home</NavLink>
+          <NavLink to="aboutUs" className="navLink">About Us</NavLink>
+          <NavLink to="team" className="navLink">Team</NavLink>
+          <NavLink to="portfolio" className="navLink">Portfolio</NavLink>
+          <NavLink to="services" className="navLink">Services</NavLink>
+          <NavLink to="projectBid" className="navLink">Project Bid</NavLink>
+          <NavLink to="blog" className="navLink">Blog</NavLink>
         </ul>
       </div>
       <div className="hidden md:block z-10  ">

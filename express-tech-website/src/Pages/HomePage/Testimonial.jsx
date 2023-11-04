@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { motion, useInView, useAnimate } from "framer-motion";
-import Card from "../../components/Cards";
 import { Carousel } from "./Carousel";
 
 function Testimonial(){

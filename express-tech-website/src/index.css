@@ -12,7 +12,7 @@
 
   body {
     font-family: 'Nunito', sans-serif;
-    background-color: black;
+
   }
 
   .bg-img {
@@ -27,4 +27,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     ;
+  }
+
+  header nav a.active {
+    color: rgb(0, 136, 255);
   }
