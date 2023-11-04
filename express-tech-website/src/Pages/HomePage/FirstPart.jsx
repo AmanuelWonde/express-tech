@@ -8,7 +8,7 @@ import animationData from "../../assets/pc-animation.json";
 
 export function FirstComponent() {
   return(
-    <div className='bg-img pb-40 pt-20 lg:pt-0'>
+    <div className='bg-img pb-40 lg:pb-64 pt-20 lg:pt-0'>
       <div className='xl:w-[1300px] lg:pt-20 mx-auto flex flex-col lg:flex-row justify-between content-center'>
         <div className='p-8 lg:w-1/2 text-white flex flex-col justify-center content-center text-center lg:text-left' >
           <motion.h3 

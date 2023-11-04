@@ -6,7 +6,7 @@ import { Copyright } from "../components/Copyright";
 export default function Rootlayout(){
   return(
     <div>
-      <header>
+      <header className='mb-20'>
         <Navbar />
       </header>
       <main>

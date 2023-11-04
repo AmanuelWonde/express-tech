@@ -19,16 +19,19 @@
     background-image: url("./assets/Images/nasa-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
   }
 
   .bg-img-2 {
     background-image: url("./assets/Images/Digital-Earth.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    ;
   }
 
+  .bg-img-3 {
+    background-image: url("./assets/Images/abstract-dark-blue-background-with-overlapping-stripe_500223-232.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   header nav a.active {
     color: rgb(0, 136, 255);
   }

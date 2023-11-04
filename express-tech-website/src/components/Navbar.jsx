@@ -13,9 +13,9 @@ export function Navbar(){
   }
 
   return(
-    <div className="bg-black sticky z-20">
-      <nav className="bg-black h-[80px] px-4 text-white flex flex-row-reverse md:flex-row justify-between items-center 2xl:w-[1280px] mx-auto">
-        <div className="text-3xl  cursor-pointer lg:hidden pt-2 z-10 ">
+    <div className="bg-black  sticky z-20">
+      <nav className="bg-black h-[80px] px-4 text-white flex flex-row-reverse md:flex-row justify-between items-center 2xl:w-[1280px] mx-auto ">
+        <div className="text-3xl  cursor-pointer lg:hidden pt-2 z-10">
           <ion-icon name={name} onClick={onToggleMenu}></ion-icon>
         </div>
         <div className="z-10">

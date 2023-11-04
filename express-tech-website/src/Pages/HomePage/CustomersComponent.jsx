@@ -18,7 +18,7 @@ function CustomersComponent(){
     <motion.div
       ref={scope}
       initial={{opacity: 0}} 
-      className="bg-[#203a59] py-10 px-4 xl:w-[1300px] mx-5 rounded-2xl absolute top-[1060px] lg:top-[800px] xl:top-[860px] left-0 right-0 lg:mx-auto text-white flex flex-col justify-center items-center gap-9 border border-[#4672a5] hover:border-[#5998e0] transition-color duration-300">
+      className="bg-[#203a59] py-10 px-4 xl:w-[1300px] mx-5 rounded-2xl  lg:mx-auto text-white flex flex-col justify-center items-center gap-9 border border-[#4672a5] hover:border-[#5998e0] transition-color duration-300">
     <h1 className="text-xl sm:text-3xl md:text-4xl">Join our <span className="text-blue-500 text-2xl sm:text-4xl md:text-5xl">100+</span> happy customers</h1>
     <div className="grid grid-cols-4  md:grid-cols-6 gap-4 space-y-4">
       <img className="w-[150px]" src="https://hexlabs.tech/wp-content/uploads/2023/06/12.png"/>
