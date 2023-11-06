@@ -19,7 +19,7 @@ function FourthComponent(){
           />
         <Card
           style="bg-[#203a59] text-white rounded-xl "
-          initial={{opacity: 0, x: 100}}
+          initial={{opacity: 0, y: 100}}
           title="Website Development"
           text="Creating stunning websites for online success."
           img="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" 

@@ -1,5 +1,4 @@
 import React from "react";
-import {FaLightbulb} from "react-icons/fa"
 
 export function ServicesCard(props){
   return(
